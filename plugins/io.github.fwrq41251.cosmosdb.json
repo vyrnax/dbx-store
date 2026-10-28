@@ -1,0 +1,41 @@
+{
+  "id": "io.github.fwrq41251.cosmosdb",
+  "name": "Cosmos DB NoSQL",
+  "description": "Query and edit Azure Cosmos DB for NoSQL documents with partition-aware queries, JSON and field editors, and conditional single-document writes.",
+  "publisher": "fwrq41251",
+  "verified": false,
+  "icon": "https://raw.githubusercontent.com/fwrq41251/dbx-plugin-cosmosdb/v0.8.0/assets/plugin.svg",
+  "tags": [
+    "database",
+    "azure",
+    "cosmosdb",
+    "nosql"
+  ],
+  "permissions": [],
+  "source": "https://github.com/fwrq41251/dbx-plugin-cosmosdb/tree/v0.8.0",
+  "homepage": "https://github.com/fwrq41251/dbx-plugin-cosmosdb",
+  "license": "MIT",
+  "latestVersion": "0.8.0",
+  "versions": [
+    {
+      "version": "0.8.0",
+      "releasedAt": "2026-10-27T17:09:52.612Z",
+      "releaseNotes": "Initial macOS ARM64 release: partition-scoped Cosmos NoSQL queries, cached partition candidates, CodeMirror and field editing, and user-confirmed conditional single-document writes.",
+      "artifacts": [
+        {
+          "target": "darwin-arm64",
+          "url": "https://dl.dbxio.com/plugins/io.github.fwrq41251.cosmosdb/0.8.0/io.github.fwrq41251.cosmosdb-0.8.0-darwin-arm64.dbxp",
+          "sha256": "57bbf41bdf601f81d9700bff85d6400a44c9a8a816d2de725f0cfac445b3c300",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 4904530
+        }
+      ]
+    }
+  ],
+  "localizations": {
+    "zh-CN": {
+      "name": "Cosmos DB NoSQL",
+      "description": "查询和编辑 Azure Cosmos DB for NoSQL 文档，支持分区键选择、JSON 与字段编辑及带版本条件的单文档增删改。"
+    }
+  }
+}

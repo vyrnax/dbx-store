@@ -1,0 +1,44 @@
+{
+  "id": "com.dbx.webview",
+  "name": "Browser",
+  "description": "在 DBX 内打开任意网站：抓取正文并按站点规则重排；小红书、抖音等前端渲染站点可直接在插件内实时浏览、登录、评论。",
+  "publisher": "xingxi",
+  "verified": false,
+  "icon": "https://raw.githubusercontent.com/chenjie1024/DBX-Browser/v0.7.8/assets/plugin.svg",
+  "tags": [
+    "web",
+    "reader",
+    "browser",
+    "novel"
+  ],
+  "permissions": [
+    "host.storage",
+    "host.events"
+  ],
+  "source": "https://github.com/chenjie1024/DBX-Browser/tree/v0.7.8",
+  "homepage": "https://github.com/chenjie1024/DBX-Browser",
+  "license": "MIT",
+  "latestVersion": "0.7.8",
+  "versions": [
+    {
+      "version": "0.7.8",
+      "releasedAt": "2026-10-27T17:15:51.808Z",
+      "releaseNotes": "首个公开版本：网页正文抽取、站点预设（可自定义增删）、实时页面渲染与鼠标键盘转发、本地 txt 小说阅读。",
+      "artifacts": [
+        {
+          "target": "windows-x64",
+          "url": "https://dl.dbxio.com/plugins/com.dbx.webview/0.7.8/com.dbx.webview-0.7.8-windows-x64.dbxp",
+          "sha256": "111d2b1290ce1121f10dbc03a356a66b9854cbf0117503793fba02bbcddf4de3",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 2784108
+        }
+      ]
+    }
+  ],
+  "localizations": {
+    "zh-CN": {
+      "name": "Browser",
+      "description": "在 DBX 内打开任意网站：抓取正文并按站点规则重排；小红书、抖音等前端渲染站点可直接在插件内实时浏览、登录、评论。"
+    }
+  }
+}

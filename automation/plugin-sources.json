@@ -230,6 +230,11 @@
       "repository": "huangqiang008/dbx-object-storage",
       "metadataPath": ".dbx-store.json",
       "autoUpdate": true
+    },
+    {
+      "repository": "fwrq41251/dbx-plugin-cosmosdb",
+      "metadataPath": ".dbx-store.json",
+      "autoUpdate": true
     }
   ]
 }
